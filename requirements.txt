@@ -8,4 +8,8 @@ pydantic==1.9.1
 sniffio==1.2.0
 starlette==0.19.1
 typing_extensions==4.3.0
-uvicorn==0.18.2
+
+# I added these last three manually. Things'll be fine, I think... TODO: find out for sure
+Adafruit-ADS1x15==1.0.2
+RPi.GPIO==0.7.1
+uvicorn[standard]==0.18.2
