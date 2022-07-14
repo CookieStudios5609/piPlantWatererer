@@ -1,7 +1,7 @@
-> My Pi's GPIO pins may or may not be outputting 4.2v at idle, for some reason, and turning on the relay during the `GPIO.setup()` function, rather than the intended  behavior of outputting only when turned on. Something is terribly wrong. Use this at your own risk. The creator of this repo is not responsible to any damage that may come from the use of this program or wiring guides used when setting up this program. The creator of this repo may also be abandoning this project for many weeks, due to the aforementioned haywire Pi.
+> Use this at your own risk. The creator of this repo is not responsible to any damage that may come from the use of this program or wiring guides used when setting up this program. 
 # piPlantWatererer: An API for monitoring soil moisture and watering plants accordingly
 
-I've had my semi-functioning Raspberry Pi 3a+ sitting around for a bit only being used as another node in my homelab. Time to do something more than running an LED with its GPIO pins.
+I've had a Raspberry Pi 3a+ sitting around for a bit only being used as another node in my homelab. Time to do something more than running an LED with its GPIO pins.
 # Project Structure:
 
 /: The root folder contains `run.py`, the file to run to start the entire program, and `main.py`, the file that holds most of the FastAPI logic. `pump.py` and `sensor.py` contain functions that control a relay and ADS1115 module respectively. 
